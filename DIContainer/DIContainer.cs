@@ -51,7 +51,7 @@
         #region Resolving
         public T Resolve<T>()
         {
-            return (T) Resolve(typeof(T));
+            return (T)Resolve(typeof(T));
         }
 
         private object Resolve(Type T)
